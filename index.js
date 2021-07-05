@@ -150,7 +150,7 @@ $("form").on("submit", (e) => {
         if (i < algo.path.length) {
           algo.path[i].addClass("highlighted");
           i++;
-          timer1 = setTimeout(highlightNextElement, 250);
+          timer1 = setTimeout(highlightNextElement, 500);
         }
     };
 
